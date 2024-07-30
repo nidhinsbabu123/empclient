@@ -15,10 +15,6 @@ function Add() {
 
   const navigate = useNavigate()
 
-
-
-
-
   const options = [
     { value: 'Active', label: 'Active' },
     { value: 'InActive', label: 'InActive' }
@@ -44,11 +40,6 @@ function Add() {
 
   //create a State
   const [preview, setPreview] = useState("")
-
-
-
-
-
 
 
   // Define normal input function.
